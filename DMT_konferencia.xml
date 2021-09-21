@@ -1,1 +1,13 @@
 
+<? xml version="1.0" encoding="utf-8"?>
+
+<konferencia>
+       <cim nev="Konferencia"/> </cim>
+       <hallgatok nev="Hallgatok"/>
+           <hallgato nev="Máté" lakcim="Kazincbarcika"/>
+       </hallgatok>
+       <helyszin nev="Kazincbarcika"/>
+</konferencia>
+
+          
+             
