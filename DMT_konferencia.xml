@@ -2,11 +2,11 @@
 <? xml version="1.0" encoding="utf-8"?>
 
 <konferencia>
-       <cim nev="Konferencia"/> </cim>
-       <hallgatok nev="Hallgatok"/>
+       <cim> &A; </cim>
+       <hallgatok>
            <hallgato nev="Máté" lakcim="Kazincbarcika"/>
        </hallgatok>
-       <helyszin nev="Kazincbarcika"/>
+       <helyszin> &B; </helyszin>
        <eloado nev="Imre" adoszam="0101" lakcim="Miskolc"/>
        <datum>2021.09.21</datum>
 </konferencia>
