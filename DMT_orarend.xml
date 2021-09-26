@@ -8,7 +8,7 @@
       <tol>12:00</tol>
       <ig>14:00</ig>
     </idopont>
-    <helyszin>Miskolc</helyszin>
+    <helyszin>I A2 fsz.</helyszin>
     <oktato>Dr. Bendarik László</oktato>
     <szak>Programmtervező Informatikus</szak>
   </ora>
@@ -19,7 +19,7 @@
       <tol>14:00</tol>
       <ig>16:00</ig>
     </idopont>
-    <helyszin>Miskolc</helyszin>
+    <helyszin>In/103 In I. em. 103</helyszin>
     <oktato>Dr. Bendarik László</oktato>
     <szak>Programmtervező Informatikus</szak>
   </ora>
@@ -30,7 +30,7 @@
       <tol>16:00</tol>
       <ig>20:00</ig>
     </idopont>
-    <helyszin>Miskolc</helyszin>
+    <helyszin>In/103 In I. em. 103</helyszin>
     <oktato>Dr. Sasvári Péter</oktato>
     <szak>Programmtervező Informatikus</szak>
   </ora>
