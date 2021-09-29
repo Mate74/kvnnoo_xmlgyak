@@ -9,7 +9,7 @@
 		<kiado>Maxim könyvkiadó</kiado>
 		<szerzo>Benke Gabriella Várhidinékemenesi Rita</szerzo>
 	</konyv>
-	<konyv>
+	<konyv id="02">
 		<cím>
 		IT-frusztráció - Hogyan küzdjük le és legyünk partnerei az informatikának
 		</cím>
@@ -17,7 +17,7 @@
 		<kiado>Akadémiai Kiadó</kiado>
 		<szerzo>Susan Cramm</szerzo>
 	</konyv>
-	<konyv>
+	<konyv id="03">
 		<cím>
 		Formális módszerek az informatikában
 		</cím>
