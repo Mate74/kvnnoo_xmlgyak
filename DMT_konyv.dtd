@@ -1,0 +1,3 @@
+<!DOCTYPE konyvek[
+	<!ELEMENT konyvek(konyv+)>
+	<!ELEMENT konyv (cim,ev,kiado,szerzo)>
