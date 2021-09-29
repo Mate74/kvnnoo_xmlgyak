@@ -7,7 +7,10 @@
 		</cím>
 		<ev>2016</ev>
 		<kiado>Maxim könyvkiadó</kiado>
-		<szerzo>Benke Gabriella Várhidinékemenesi Rita</szerzo>
+                <szerzok>
+		<szerzo>Várhidinékemenesi Rita</szerzo>
+                <szerzo>Benke Gabriella</szerzo>
+                </szerzok>
 	</konyv>
 	<konyv id="02">
 		<cím>
@@ -15,7 +18,9 @@
 		</cím>
 		<ev>2012</ev>
 		<kiado>Akadémiai Kiadó</kiado>
+                <szerzok>
 		<szerzo>Susan Cramm</szerzo>
+                </szerzok>
 	</konyv>
 	<konyv id="03">
 		<cím>
@@ -23,6 +28,8 @@
 		</cím>
 		<ev>2006</ev>
 		<kiado>Typotex Kiadó</kiado>
+                <szerzok>
 		<szerzo>Pataricza András</szerzo>
+                </szerzok>
 	</konyv>
 </konyvek>
