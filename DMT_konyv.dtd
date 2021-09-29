@@ -1,8 +1,8 @@
 <!DOCTYPE konyvek[
 	<!ELEMENT konyvek(konyv+)>
-	<!ELEMENT konyv (cim,ev,kiado,szerzo)>
-        <!ELEMENT cim (#PCDATA)>
-        <!ELEMENT ev (#PCDATA)>
-        <!ELEMENT kiado (#PCDATA)>
-        <!ELEMENT szerzo (#PCDATA)>
-        <!ATTLIST konyv id ID #REQUIRED>]>
+	    <!ELEMENT konyv (cim,ev,kiado,szerzo)>
+                 <!ELEMENT cim (#PCDATA)>
+                 <!ELEMENT ev (#PCDATA)>
+                 <!ELEMENT kiado (#PCDATA)>
+                 <!ELEMENT szerzo (#PCDATA)>
+                 <!ATTLIST konyv id ID #REQUIRED>]>
