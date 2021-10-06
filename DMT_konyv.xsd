@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/DMT_konyv" xmlns:tns="http://www.example.org/DMT_konyv" elementFormDefault="qualified">
+	<element name="books">
+			<complexType>
+				<sequence>
+					<element name="book" maxOccurs="unbounded">
+						<complexType>
+							<sequence>
+								<element name="title" type="string" />
+								<element name="published" type="unsignedshort" />
+								<element name="publisher" type="string" />
+								<element name="author" type="string" maxOccurs="unbounded" />
+								<element name="abstract" type="string" />
+							</sequence>
+						<attribute name="id" type="string" use="required" />
+						</complexType>
+					</element>
+				</sequence>
+			</complexType>
+	</element>
+</schema>
