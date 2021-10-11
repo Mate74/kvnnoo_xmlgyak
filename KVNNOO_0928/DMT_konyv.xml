@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE konyvek SYSTEM "DMT_konyv.dtd">
+<konyvek>
+	<konyv id="01">
+		<cim >
+		Érettségi mintafeladatsorok informatikából (8 gyakorlati középszintű feladatsor) CD-vel - A 2017-től érvényes érettségi követelményrendszer alapján
+		</cim>
+		<ev>2016</ev>
+		<kiado>Maxim könyvkiadó</kiado>
+		<szerzo>Várhidinékemenesi Rita</szerzo>
+        <szerzo>Benke Gabriella</szerzo>
+	</konyv>
+	<konyv id="02">
+		<cim>
+		IT-frusztráció - Hogyan küzdjük le és legyünk partnerei az informatikának
+		</cim>
+		<ev>2012</ev>
+		<kiado>Akadémiai Kiadó</kiado>
+		<szerzo>Susan Cramm</szerzo>
+
+	</konyv>
+	<konyv id="03">
+		<cim>
+		Formális módszerek az informatikában
+		</cim>
+		<ev>2006</ev>
+		<kiado>Typotex Kiadó</kiado>
+		<szerzo>Pataricza András</szerzo>
+	</konyv>
+</konyvek>

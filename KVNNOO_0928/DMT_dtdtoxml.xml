@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minta SYSTEM "DMT_ertodtd.DTD">
+
+<minta>
+	<A Aa="a01">
+		<Ab>
+			<Abx>
+			haha
+			</Abx>
+			<Aby>
+			hahaha
+			</Aby>
+		</Ab>
+		<Ac>
+			<Acd>
+			József
+			</Acd>
+			<Ace>
+			Balázs
+			</Ace>
+		</Ac>
+	</A>
+	<B Ba="b01" Bc="b01">
+		<Bb>
+			<Bbx>
+			Kossuth
+			</Bbx>
+			<Bby>
+			Lajos
+			</Bby>
+		</Bb>
+	</B>
+	<C Ca="c01">
+		<Cb>
+		hahahahahaha
+		</Cb>
+	</C>
+	<A_B A_B_a="a01" A_B_b="b01">
+		<A_Bc>
+		nagyon jó
+		</A_Bc>
+	</A_B>
+</minta>
