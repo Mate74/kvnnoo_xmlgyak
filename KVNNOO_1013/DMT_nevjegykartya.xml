@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="DMT_nevjegykartya.xsd">
+	<nevjegykartya >
+		<nev>
+			Deák Máté Tibor
+		</nev>
+		<ceg>
+			<nev>
+			Miskolci Egyetem
+			</nev>
+			<cim>
+				<iranyitoszam>
+				3515
+				</iranyitoszam>
+				<varos>
+				Miskolc
+				</varos>
+				<utca>
+				Miskolc-egyetemváros
+				</utca>
+				<hazszam>
+				12
+				</hazszam>
+			</cim>
+			<telefonszam>
+			0646565111
+			</telefonszam>
+			<weblap>
+			https://www.uni-miskolc.hu
+			</weblap>
+		</ceg>
+		<beosztas>
+		Programmtervező Informatikus
+		</beosztas>
+		<telefonszam>
+		06203642970
+		</telefonszam>
+		<email>
+		mate.deak99@gmail.com
+		</email>
+
+	</nevjegykartya>
+            
+</nevjegykartyak>
