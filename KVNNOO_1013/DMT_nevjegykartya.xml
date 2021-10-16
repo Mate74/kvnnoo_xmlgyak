@@ -2,45 +2,71 @@
 
 <nevjegykartyak    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="DMT_nevjegykartya.xsd">
-	<nevjegykartya >
+	<nevjegykartya>
 		<nev>
 			Deák Máté Tibor
 		</nev>
 		<ceg>
 			<nev>
-			Miskolci Egyetem
+			Obi
 			</nev>
 			<cim>
 				<iranyitoszam>
-				3515
+				3712
 				</iranyitoszam>
 				<varos>
 				Miskolc
 				</varos>
 				<utca>
-				Miskolc-egyetemváros
+				Kertész utca
 				</utca>
 				<hazszam>
-				12
+				10
 				</hazszam>
 			</cim>
-			<telefonszam>
-			0646565111
-			</telefonszam>
+			<telefonszam>06707779998</telefonszam>
 			<weblap>
-			https://www.uni-miskolc.hu
+			Obi.hu
 			</weblap>
 		</ceg>
-		<beosztas>
-		Programmtervező Informatikus
-		</beosztas>
-		<telefonszam>
-		06203642970
-		</telefonszam>
+		<beosztas>fonok</beosztas>
+		<telefonszam>06204444555</telefonszam>
 		<email>
-		mate.deak99@gmail.com
+		nincs.email@gmail.com
 		</email>
-
+	</nevjegykartya>
+	<nevjegykartya>
+		<nev>
+			Halász László
+		</nev>
+		<ceg>
+			<nev>
+			Tesco
+			</nev>
+			<cim>
+				<iranyitoszam>
+				3712
+				</iranyitoszam>
+				<varos>
+				Miskolc
+				</varos>
+				<utca>
+				Kertész utca
+				</utca>
+				<hazszam>
+				11
+				</hazszam>
+			</cim>
+			<telefonszam>06705555888</telefonszam>
+			<weblap>
+			tesco.com
+			</weblap>
+		</ceg>
+		<beosztas>alkalmazott</beosztas>
+		<telefonszam>06203333777</telefonszam>
+		<email>
+		neki.sincs@gmail.com
+		</email>
 	</nevjegykartya>
             
 </nevjegykartyak>
