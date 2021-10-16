@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="minta">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="A"  maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Ab"  maxOccurs="unbounded" >
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Abx" type="xs:string" />
+											<xs:element name="Aby" type="xs:string" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Ac"  maxOccurs="unbounded" >
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Acd" type="xs:string" />
+											<xs:element name="Ace" type="xs:string" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="Aa" type="xs:int" use="required" />							
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="B"  maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Bb"  >
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Bbx" type="xs:string" />
+											<xs:element name="Bby" type="xs:string" />
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:sequence>
+							<xs:attribute name="Ba" type="xs:int" use="required" />
+							<xs:attribute name="Bc" type="xs:int" use="optional" />							
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="C"  maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Cb" type="xs:string" />
+							</xs:sequence>
+							<xs:attribute name="Ca" type="xs:int" use="required" />				
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="A_B"  maxOccurs="unbounded">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="A_Bc" type="xs:string"  />
+							</xs:sequence>
+							<xs:attribute name="A_B_a" type="xs:int" use="optional" />
+							<xs:attribute name="A_B_b" type="xs:int" use="optional" />							
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+</xs:schema>
