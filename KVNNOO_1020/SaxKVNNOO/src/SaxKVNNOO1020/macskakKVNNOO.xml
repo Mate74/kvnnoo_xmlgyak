@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE macskak SYSTEM "macskakKVNNOO.dtd">  -->
+<!--      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="macskakKVNNOO.xsd" -->
+<macskak>
+	<macska id="1">
+			<nev>asdasdas</nev>
+			<kor>333</kor>
+			<fajta>asdasa</fajta>
+	</macska>
+	<macska id="2">
+			<nev>
+			asdasdas
+			</nev>
+			<kor>332</kor>
+			<fajta>
+			dasasd
+			</fajta>
+	</macska>
+	<macska id="3">
+			<nev>
+			asdasd
+			</nev>
+			<kor>
+			343
+			</kor>
+			<fajta>
+			asdasd
+			</fajta>
+	</macska>
+</macskak>
