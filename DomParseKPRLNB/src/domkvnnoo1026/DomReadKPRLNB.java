@@ -42,7 +42,7 @@ public class DomReadKPRLNB {
 				String fname = node1.getTextContent();
 				org.w3c.dom.Node node2 =elem.getElementsByTagName("lastname").item(0);
 				String lname = node2.getTextContent();
-				org.w3c.dom.Node node3 =elem.getElementsByTagName("lastname").item(0);
+				org.w3c.dom.Node node3 =elem.getElementsByTagName("profession").item(0);
 				String pname = node3.getTextContent();
 				
 				System.out.println("User id: %s%n"+ uid);
