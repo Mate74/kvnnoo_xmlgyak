@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="DMT_nevjegykartya.xsd">
+	<nevjegykartya>
+		<nev>
+			Deák Máté Tibor
+		</nev>
+		<ceg>
+			<nev>
+			Obi
+			</nev>
+			<cim>
+				<iranyitoszam>
+				3712
+				</iranyitoszam>
+				<varos>
+				Miskolc
+				</varos>
+				<utca>
+				Kertész utca
+				</utca>
+				<hazszam>
+				10
+				</hazszam>
+			</cim>
+			<telefonszam>06707779998</telefonszam>
+			<weblap>
+			Obi.hu
+			</weblap>
+		</ceg>
+		<beosztas>fonok</beosztas>
+		<telefonszam>06204444555</telefonszam>
+		<email>
+		nincs.email@gmail.com
+		</email>
+	</nevjegykartya>
+	<nevjegykartya>
+		<nev>
+			Halász László
+		</nev>
+		<ceg>
+			<nev>
+			Tesco
+			</nev>
+			<cim>
+				<iranyitoszam>
+				3712
+				</iranyitoszam>
+				<varos>
+				Miskolc
+				</varos>
+				<utca>
+				Kertész utca
+				</utca>
+				<hazszam>
+				11
+				</hazszam>
+			</cim>
+			<telefonszam>06705555888</telefonszam>
+			<weblap>
+			tesco.com
+			</weblap>
+		</ceg>
+		<beosztas>alkalmazott</beosztas>
+		<telefonszam>06203333777</telefonszam>
+		<email>
+		neki.sincs@gmail.com
+		</email>
+	</nevjegykartya>
+            
+</nevjegykartyak>

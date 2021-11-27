@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="konyvek">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="konyv" type="konyvTipus" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	</xs:element>
+	<xs:complexType name="konyvTipus">
+		<xs:sequence>
+			<xs:element name="cim" type="xs:string"/>
+			<xs:element name="szerzo" type="xs:string" />
+			<xs:element ref="szereplo" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="szereplo"  >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nev" type="xs:string" maxOccurs="unbounded" />
+				<xs:element name="baratja" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="szuletett" type="szuletettTipus" maxOccurs="unbounded"  />
+				<xs:element name="jellemzés" type="xs:string" maxOccurs="unbounded"  />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="szuletettTipus">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1950"/>
+			<xs:maxInclusive value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
