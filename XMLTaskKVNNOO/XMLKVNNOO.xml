@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Boltok_mukodesi_elve     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="XMLSchemaKVNNOO.xsd">
+            <Aru Azonosito="01">
+            	<Elektronikai_cikkek>
+            		<Televizio>Samsung</Televizio>
+            		<Mikorhullamu_suto>Panasonic</Mikorhullamu_suto>
+            		<Mosogep>Whirlpool</Mosogep>
+            	</Elektronikai_cikkek>
+            	<Szamitastechnikai_eszkozok>
+            		<Laptop>Lenovo</Laptop>
+            		<Mobiltelefon>Iphone</Mobiltelefon>
+            	</Szamitastechnikai_eszkozok>
+            	<Bnev>METRO</Bnev>
+            </Aru>
+            
+            <Aru Azonosito="02">
+            	<Elektronikai_cikkek>
+            		<Televizio>LG</Televizio>
+            		<Mikorhullamu_suto>Elektrolux</Mikorhullamu_suto>
+            		<Mosogep>BOSCH</Mosogep>
+            	</Elektronikai_cikkek>
+            	<Szamitastechnikai_eszkozok>
+            		<Laptop>ASUS</Laptop>
+            		<Mobiltelefon>Huaweii</Mobiltelefon>
+            	</Szamitastechnikai_eszkozok>
+            	<Bnev>Elektrolux</Bnev>
+            </Aru>
+         
+            <Aru Azonosito="03">
+            	<Elektronikai_cikkek>
+            		<Televizio>Phillips</Televizio>
+            		<Mikorhullamu_suto>Samsung</Mikorhullamu_suto>
+            		<Mosogep>Siemens</Mosogep>
+            	</Elektronikai_cikkek>
+            	<Szamitastechnikai_eszkozok>
+            		<Laptop>HP</Laptop>
+            		<Mobiltelefon>Nokia</Mobiltelefon>
+            	</Szamitastechnikai_eszkozok>
+            	<Bnev>Media_Markt</Bnev>
+            </Aru>
+            
+            <Vasarlo Vnev="Mengyan Máté">
+            	<Bankszamlaszam>1171234567891011</Bankszamlaszam>
+            	<Szuletesi_ev>1999</Szuletesi_ev>
+            	<Utel.szam>06201234567</Utel.szam>
+            </Vasarlo>
+            
+            <Vasarlo Vnev="Deák Tivadar">
+            	<Bankszamlaszam>1171011987654321</Bankszamlaszam>
+            	<Szuletesi_ev>2010</Szuletesi_ev>
+            	<Utel.szam>06709876543</Utel.szam>
+            </Vasarlo>
+            
+            <Vasarlo Vnev="Csehi Beáta">
+            	<Bankszamlaszam>1171234987651110</Bankszamlaszam>
+            	<Szuletesi_ev>2004</Szuletesi_ev>
+            	<Utel.szam>06309871234</Utel.szam>
+            </Vasarlo>
+            
+            <Ugyfelszolgalat Utel.szam="06209875463">
+            	<UE-mail>metro@gmail.com</UE-mail>
+            </Ugyfelszolgalat>
+            
+  			<Ugyfelszolgalat Utel.szam="06309997777">
+            	<UE-mail>electrolux@gmail.com</UE-mail>
+            </Ugyfelszolgalat>
+            
+  			<Ugyfelszolgalat Utel.szam="06701112222">
+            	<UE-mail>media.markt@gmail.com</UE-mail>
+            </Ugyfelszolgalat>
+            
+            <Futarszolgalat Ftel.szam="06705897412">
+            	<FE-mail>sprinter@gmail.com</FE-mail>
+            	<Bnev>METRO</Bnev>
+            </Futarszolgalat>
+            
+            <Futarszolgalat Ftel.szam="06208795462">
+            	<FE-mail>furge.futar@gmail.com</FE-mail>
+            	<Bnev>Electrolux</Bnev>
+            </Futarszolgalat>
+            
+            <Futarszolgalat Ftel.szam="06201045030">
+            	<FE-mail>furge.futar@gmail.com</FE-mail>
+            	<Bnev>Media_Markt</Bnev>
+            </Futarszolgalat>
+            
+            <Bolt Bnev="METRO">
+            <Alkalmazottak>
+            	<Alkalmazott>Sándor Béla</Alkalmazott>
+            	<Alkalmazott>Táglás Tibor</Alkalmazott>
+            	<Alkalmazott>Lakatos Lajos</Alkalmazott>
+            </Alkalmazottak>
+            <Alapitasi_ev>1985</Alapitasi_ev>
+            </Bolt>
+            
+            <Bolt Bnev="Elektrolux">
+            <Alkalmazottak>
+            	<Alkalmazott>Horváth László</Alkalmazott>
+            	<Alkalmazott>Péter Károly</Alkalmazott>
+            	<Alkalmazott>Kovács Boglárka</Alkalmazott>
+            </Alkalmazottak>
+            <Alapitasi_ev>1965</Alapitasi_ev>
+            </Bolt>
+            
+            <Bolt Bnev="Media_Markt">
+            <Alkalmazottak>
+            	<Alkalmazott>Szabó Réka</Alkalmazott>
+            	<Alkalmazott>Tiszlavits Gergő</Alkalmazott>
+            	<Alkalmazott>Pázmány István</Alkalmazott>
+            </Alkalmazottak>
+            <Alapitasi_ev>1965</Alapitasi_ev>
+            </Bolt>
+            
+   			<Vasarlas>
+   				<Azonosito>01</Azonosito>
+   				<Vnev>Mengyan Máté</Vnev>
+   			</Vasarlas>
+
+   			<Vasarlas>
+   				<Azonosito>02</Azonosito>
+   				<Vnev>Deák Tivadar</Vnev>
+   			</Vasarlas>
+   			
+   			<Vasarlas>
+   				<Azonosito>03</Azonosito>
+   				<Vnev>Csehi Beáta</Vnev>
+   			</Vasarlas>
+</Boltok_mukodesi_elve>

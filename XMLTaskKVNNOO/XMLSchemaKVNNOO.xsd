@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:complexType name="AruType">
+	<xs:sequence>
+		<xs:element name="Elektronikai_cikkek">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="Televizio" type="xs:string" />
+					<xs:element name="Mikorhullamu_suto" type="xs:string" />
+					<xs:element name="Mosogep" type="xs:string"  />
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="Szamitastechnikai_eszkozok">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="Laptop" type="xs:string"  />
+					<xs:element name="Mobiltelefon" type="xs:string"  />
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="Bnev" type="xs:string" />
+	</xs:sequence>
+		<xs:attribute name="Azonosito" type="xs:int" use="required" />
+</xs:complexType>
+
+<xs:complexType name="VasarloType">
+	<xs:sequence>
+		<xs:element name="Bankszamlaszam" type="xs:integer"  />
+		<xs:element name="Szuletesi_ev" type="xs:integer"  />
+		<xs:element name="Utel.szam" type="telefonType"  />
+	</xs:sequence>
+		<xs:attribute name="Vnev" type="xs:string" use="required" />
+</xs:complexType>
+
+<xs:complexType name="UgyfelszolgalatType">
+	<xs:sequence>
+		<xs:element name="UE-mail" type="emailType"  />
+	</xs:sequence>
+		<xs:attribute name="Utel.szam" type="telefonType" use="required" />
+</xs:complexType>
+
+<xs:complexType name="FutarszolgalatType">
+	<xs:sequence>
+		<xs:element name="FE-mail" type="emailType"  />
+		<xs:element name="Bnev" type="xs:string" />
+	</xs:sequence>
+		<xs:attribute name="Ftel.szam" type="telefonType" use="required" />
+</xs:complexType>
+
+<xs:simpleType name="emailType">
+	<xs:restriction base="xs:string">
+		<xs:pattern value="[\w.]+@\w+\.\w+"/>
+	</xs:restriction>
+</xs:simpleType>
+	
+<xs:simpleType name="telefonType">
+	<xs:restriction base="xs:string">
+		<xs:pattern value="\06\d{1,2}\d{3}\d{4}"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="BoltType">
+	<xs:sequence>
+		<xs:element name="Alkalmazottak">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element name="Alkalmazott" type="xs:string" maxOccurs="unbounded"  />
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+		<xs:element name="Alapitasi_ev" type="xs:integer"  />
+	</xs:sequence>
+		<xs:attribute name="Bnev" type="xs:string" use="required" />
+</xs:complexType>
+
+<xs:complexType name="VasarlasType">
+	<xs:sequence>
+		<xs:element name="Azonosito" type="xs:string"  />
+		<xs:element name="Vnev" type="xs:string"  />
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="Boltok_mukodesi_elve">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Aru" type="AruType" maxOccurs="unbounded" />
+			<xs:element name="Vasarlo" type="VasarloType" maxOccurs="unbounded" />
+			<xs:element name="Ugyfelszolgalat" type="UgyfelszolgalatType" maxOccurs="unbounded" />
+			<xs:element name="Futarszolgalat" type="FutarszolgalatType" maxOccurs="unbounded" />
+			<xs:element name="Bolt" type="BoltType" maxOccurs="unbounded" />
+			<xs:element name="Vasarlas" type="VasarlasType" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<!-- Keys -->
+	<xs:key name="key1">
+		<xs:selector xpath="Aru"/>
+		<xs:field xpath="@Azonosito"/>
+	</xs:key>
+	
+	<xs:key name="key2">
+		<xs:selector xpath="Vasarlo"/>
+		<xs:field xpath="@Vnev"/>
+	</xs:key>
+	
+	<xs:key name="key3">
+		<xs:selector xpath="Ugyfelszolgalat"/>
+		<xs:field xpath="@Utel.szam"/>
+	</xs:key>
+	
+	<xs:key name="key4">
+		<xs:selector xpath="Futarszolgalat"/>
+		<xs:field xpath="@Ftel.szam"/>
+	</xs:key>
+	
+	<xs:key name="key5">
+		<xs:selector xpath="Bolt"/>
+		<xs:field xpath="@Bnev"/>
+	</xs:key>
+	
+	<xs:keyref name="keyref1" refer="key5">
+		<xs:selector xpath="Aru/Bnev"/>
+		<xs:field xpath="@Bnev"/>
+	</xs:keyref>
+	
+	<xs:keyref name="keyref2" refer="key1">
+		<xs:selector xpath="Vasarlas/Azonosito"/>
+		<xs:field xpath="@Azonosito"/>
+	</xs:keyref>
+	
+	<xs:keyref name="keyref3" refer="key2">
+		<xs:selector xpath="Vasarlas/Vnev"/>
+		<xs:field xpath="@Vnev"/>
+	</xs:keyref>
+	
+	<xs:keyref name="keyref4" refer="key3">
+		<xs:selector xpath="Vasarlo/Utel.szam"/>
+		<xs:field xpath="@Utel.szam"/>
+	</xs:keyref>
+	
+	<xs:keyref name="keyref5" refer="key5">
+		<xs:selector xpath="Futarszolgalat/Bnev"/>
+		<xs:field xpath="@Bnev"/>
+	</xs:keyref>
+	
+</xs:element>
+</xs:schema>
