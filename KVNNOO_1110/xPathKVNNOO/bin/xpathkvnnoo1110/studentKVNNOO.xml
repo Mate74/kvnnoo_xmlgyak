@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="studentKVNNOO.xsd">
+	<student id="01">
+		<keresztnev>
+		Máté
+		</keresztnev>
+		<vezeteknev>
+		Deák
+		</vezeteknev>
+		<becenev>
+		Máté
+		</becenev>
+		<kor>
+		19
+		</kor>
+	</student>
+	<student id="02">
+		<keresztnev>
+		Márton
+		</keresztnev>
+		<vezeteknev>
+		Mengyán
+		</vezeteknev>
+		<becenev>
+		Marci
+		</becenev>
+		<kor>
+		21
+		</kor>
+	</student>
+	<student id="03">
+		<keresztnev>
+		Zsófia
+		</keresztnev>
+		<vezeteknev>
+		Szabó
+		</vezeteknev>
+		<becenev>
+		Zsófi
+		</becenev>
+		<kor>
+		21
+		</kor>
+	</student>
+</class>
